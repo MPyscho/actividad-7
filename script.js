@@ -25,3 +25,9 @@ function comprobarNumero(numero) {
   return false;
 }
 
+for (let i = 0; i < 3; i++) {
+    const numero = pedirNumero();
+  
+    if (comprobarNumero(numero)) {
+      break;
+    }
