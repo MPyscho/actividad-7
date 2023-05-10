@@ -22,12 +22,3 @@ function comprobarNumero(numero) {
     alert(`Se acabaron tus intentos, el numero era ${ numeroAdivinar }.`);
   }
 
-  return false;
-}
-
-for (let i = 0; i < 3; i++) {
-    const numero = pedirNumero();
-  
-    if (comprobarNumero(numero)) {
-      break;
-    }
