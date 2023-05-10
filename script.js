@@ -29,7 +29,7 @@ function comprobarNumero(numero) {
   var numeroNormal = Number(numero);
 
   if (numeroNormal === numeroRandom) {
-    console.log(`¡Felicidades! Has ganado el juego en ${intentos} intentos.`);
+    console.log(`Has ganado el juego en ${intentos} intentos.`);
     return true;
   }
 
