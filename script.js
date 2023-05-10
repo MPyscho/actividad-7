@@ -1,6 +1,6 @@
 const numeroAdivinar = Math.floor(Math.random() * 15) + 1;
 
-let intentos = 0;
+let intentos = 3;
 
 function pedirNumero() {
     const numero = prompt('Introduzca un número entre 1 y 15, tienes 3 intentos');
@@ -20,5 +20,5 @@ function comprobarNumero(numero) {
   }
   if (intentos === 3 && numero != numeroAdivinar) {
     alert(`Se acabaron tus intentos, el numero era ${ numeroAdivinar }.`);
-  }
+ 
 
